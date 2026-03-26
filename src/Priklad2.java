@@ -9,6 +9,7 @@ public class Priklad2 {
     Scanner sc = new Scanner(System.in);
     Path soubor = Path.of("data", "slova_opravene.txt");
     List<String> slova;
+    List<String> vysledky;
 
     {
         try {
@@ -27,6 +28,7 @@ public class Priklad2 {
         nejdelsiSlovo();
         nejkratsiSlovo();
         najdiVSouboru();
+
 
 
     }
@@ -140,6 +142,7 @@ public class Priklad2 {
         }
 
     }
+
 }
 
 
